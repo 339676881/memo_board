@@ -8,7 +8,7 @@ $query_result = $mysqli->query($sql_query);
 if($query_result){
 	echo "查询成功并返回数据 on index.php";
 }else{
-	echo "查询失败 on index.php";
+	echo "查询失败 on index.php ";
 }
 $rows = [];
 while($row = $query_result->fetch_array(MYSQL_ASSOC)){
